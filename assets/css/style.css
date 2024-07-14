@@ -7856,10 +7856,10 @@ ol.wp-block-rss {
 
 
 .content i{
-  font-size: 50px;
+  font-size: 30px;
   margin-bottom: 20px;
-  color: #fff;
-  background-color: red;
+  color: red;
+  background-color: var(--white-color);
   border-radius: 50%;
   text-transform: uppercase;
   font-weight: bold;
@@ -7968,13 +7968,14 @@ ol.wp-block-rss {
   .item .content{
       width: 80%;
       left: 40px;
+      bottom: -120px;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 767px) {
   .item .content{
       width: 80%;
       left: 20px;
-      bottom: -50px;
+      bottom: -180px;
   }
   .item .content h1{
       font-size: 20px;
